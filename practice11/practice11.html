@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -14,47 +14,51 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--google icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    <!--rtl-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- header section-->
-    <header class="header mx-0 d-flex">
+    <header class="header mx-0 d-flex mt-0">
         <!--navbar-->
-        <nav class="navbar p-0 mynavbar d-flex justify-content-start align-items-center mx-0">
-            <!--navbar icons-->
-            <div class="navbar-icons pb-3 pt-4 pl-sm-3 ml-sm-2">
-                <a href="#" class="navbar-icon ml-sm-2 mr-1 d-none d-sm-inline pl-sm-3 py-0 my-0" title="twitter">
-                    <i class=" fab fa-twitter"></i>
-                </a>
-                <a href="#" class="navbar-icon mx-1 d-none d-sm-inline py-0 my-0" title="instagram">
-                    <i class=" fab fa-instagram"></i>
-                </a>
-                <!-- end navbar icons-->
-                <!-- navbar toggler-->
-                <button type="button" class="navbar-toggler toggler-button" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" title="منوی اصلی">
-                <span class="toggler-icon ml-sm-4 mr-sm-2 pl-sm-3">
-                    <i class="fas fa-bars"></i>
-                </span>
-                </button>
-                <!-- end navbar toggler-->
-                <!-- navbar offcanvas icon-->
-                <button class="offcanvas-button btn m-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" aria-controls="myoffcanvaslabel" title="اطلاعات بیشتر">
-                <span class="offcanvas-icon ml-1 mr-0">
-                    <i class="material-icons">
-                        &#xe03b
-                    </i>
-                </span>
-                </button>
-                <!-- end navbar offcanvas icon-->
-            </div>
+        <nav class="navbar px-0 mt-0 mynavbar d-flex justify-content-start align-items-center">
             <!--navbar logo-->
-            <div class="img-container py-3 pr-sm-3 mr-sm-4 ml-auto ">
+            <div class="logo-container pr-3 mr-4 ">
                 <a href="#">
                     <img src="https://rasa-dev.ir/wp-content/uploads/2021/10/Untitled-3-Recovered.png" alt="navbar logo" class="navbar-logo" title="هسته فناور رسا">
                 </a>
             </div>
             <!--end navbar logo-->
+            <!--navbar icons-->
+            <div class="navbar-icons pb-3 pt-2 mr-auto pl-5">
+                <!-- navbar offcanvas icon-->
+                <button class="offcanvas-button btn pl-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" aria-controls="myoffcanvaslabel" title="اطلاعات بیشتر">
+                    <span class="offcanvas-icon ">
+                        <i class="material-icons">
+                            &#xe03b
+                        </i>
+                    </span>
+                </button>
+                <!-- end navbar offcanvas icon-->
+                <!-- navbar toggler-->
+                <button type="button" class="navbar-toggler toggler-button pl-5" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" title="منوی اصلی">
+                    <span class="toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <!-- end navbar toggler-->
+                <a href="#" class="navbar-icon pl-2 d-none d-sm-inline " title="instagram">
+                    <i class=" fab fa-instagram"></i>
+                </a>
+                <a href="#" class="navbar-icon  d-none d-sm-inline " title="twitter">
+                    <i class=" fab fa-twitter"></i>
+                </a>
+
+                <!-- end navbar icons-->
+
+
+            </div>
             <!-- navbar collapse -->
             <div class="collapse navbar-collapse collapse-menu w-100" id="mycollapse">
                 <ul class="navbar-nav p-3 d-flex flex-column justify-content-between">
@@ -97,7 +101,7 @@
             </div>
             <!-- end navbar collapse -->
             <!-- navbar offcanvas -->
-            <div class="offcanvas offcanvas-end myoffcanvas" data-bs-scroll="true" tabindex="-1" id="myoffcanvas" aria-labelledby="myoffcanvaslabel">
+            <div dir="ltr" class="offcanvas offcanvas-start myoffcanvas" data-bs-scroll="true" tabindex="-1" id="myoffcanvas" aria-labelledby="myoffcanvaslabel">
                 <div class="offcanvas-header">
                     <button type="button" class="text-reset btn p-0 " data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="material-icons offcanvas-close">
@@ -117,7 +121,7 @@
                         </div>
                         <h6 class=" offcanvas-h6 pb-3 my-3 ">درباره ما</h6>
                         <h6 class=" offcanvas-h6 pb-3 my-3">دسته ها</h6>
-                        <ul class="d-flex flex-column align-items-end">
+                        <ul class="d-flex flex-column align-items-end pr-0 mr-0">
                             <li>
                                 <a href="#" class="offcanvas-link">اخبار</a>
                             </li>
@@ -159,28 +163,59 @@
         <!-- end information section-->
     </header>
     <!-- end header section-->
-
-    <div class="container lorem-div pt-5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt architecto necessitatibus impedit totam quod illum odit esse, distinctio unde ducimus in numquam, dolorum porro et soluta iure maiores, cupiditate doloremque itaque laudantium eligendi dicta.
-        Non saepe est numquam quos culpa sit beatae ratione magnam, velit nihil quaerat esse vitae aperiam labore soluta architecto tempore aspernatur exercitationem dicta? Accusamus, laudantium amet, voluptas, ut aliquam modi autem quae quod commodi
-        minus omnis eligendi aliquid quos fuga dolorum animi ullam blanditiis? Eaque reprehenderit aperiam, cupiditate rem quod quos! Adipisci tenetur, at quo sed perferendis officia voluptatum vero magni, labore qui corporis similique porro! minus omnis
-        eligendi aliquid quos fuga dolorum animi ullam blanditiis?
+    <!--introduction section-->
+    <!--introduction title-->
+    <div class="introduction-title d-flex flex-column align-items-center py-5 flex-wrap ">
+        <p class="font-weight-bold introduction-title-p1" align="center">ایده های خود در دنیای مجازی را با ما اجرا کنید!</p>
+        <p class="introduction-title-p2 py-3" align="center">ما در زمینه های زیر میتوانیم به شما کمک کنیم.</p>
     </div>
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!--font awesome 5-->
-    <script src="js/all.js"></script>
+    <!-- end introduction title-->
+    <!--introduction body-->
+    <div class="row introduction-body px-0 mx-0">
+        <!--single introduction-->
+        <div class="col-md-4 d-flex flex-column align-items-center single-introduction px-0">
+            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/coding1.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3">طراحی و برنامه نویسی وب</p>
+            <p class="introduction-body-p" align="center">
+                طراحی و برنامه نویسی پروژه های تحت وب با تکنولوژی های Django , ASP.NET و..
+            </p>
+        </div>
+        <!-- end single introduction-->
+        <!--single introduction-->
+        <div class="col-md-4 d-flex flex-column align-items-center  single-introduction px-0">
+            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/smartphone1.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3">برنامه نویسی موبایل</p>
+            <p class="introduction-body-p" align="center">
+                طراحی اپلیکیشن های موبایل با تکنولوژی فلاتر.
+            </p>
+        </div>
+        <!-- end single introduction-->
+        <!--single introduction-->
+        <div class="col-md-4 d-flex flex-column align-items-center  single-introduction px-0">
+            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/artificial-intelligence2.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3">هوش مصنوعی</p>
+            <p class="introduction-body-p" align="center">
+                پیاده سازی و اجرای مدل ها ی یاد گیری ماشین ، یاد گیری عمیق و پردازش تصویر.
+            </p>
+        </div>
+        <!-- end single introduction-->
+    </div>
+    <!--end introduction body-->
+    <!--end introduction section-->
+    <script src=" js/jquery-3.6.0.min.js "></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
     <!--bootstrap5-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+    <!--font awesome 5-->
+    <script src="js/all.js "></script>
     <!--for text effect typing-->
-    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript " src="js/typed.js "></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
 
-            Typed.new("#typed", {
+            Typed.new("#typed ", {
                 stringsElement: document.getElementById('typed-strings'),
                 typeSpeed: 110,
                 backDelay: 500,
@@ -207,9 +242,11 @@
         function newTyped() {}
 
         function foo() {
-            console.log("Callback");
+            console.log("Callback ");
         }
     </script>
+    <!--my js file-->
+    <script src="practice11.js"></script>
 </body>
 
 
