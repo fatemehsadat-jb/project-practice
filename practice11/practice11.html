@@ -22,19 +22,58 @@
     <!-- header section-->
     <header class="header mx-0 d-flex mt-0">
         <!--navbar-->
-        <nav class="navbar px-0 mt-0 mynavbar d-flex justify-content-start align-items-center">
+        <nav id="mynavbar" class="navbar px-0 mt-0 py-0 mynavbar d-flex justify-content-start align-items-center">
             <!--navbar logo-->
-            <div class="logo-container pr-3 mr-4 ">
+            <div class="logo-container pr-3 mr-sm-4 ">
                 <a href="#">
-                    <img src="https://rasa-dev.ir/wp-content/uploads/2021/10/Untitled-3-Recovered.png" alt="navbar logo" class="navbar-logo" title="هسته فناور رسا">
+                    <img src="images/Untitled-3-Recovered.png" alt="navbar logo" class="navbar-logo" title="هسته فناور رسا">
                 </a>
             </div>
             <!--end navbar logo-->
             <!--navbar icons-->
-            <div class="navbar-icons pb-3 pt-2 mr-auto pl-5">
+            <div class="navbar-icons mr-auto pl-sm-5 d-flex align-content-center">
+                <!--navbar-information-->
+                <ul class="navbar-information mb-0 mt-2">
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">خانه
+                        <div class="collapse-underline mt-1 "></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">امکانات
+                    <div class="collapse-underline mt-1"></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">وبلاگ
+                        <div class="collapse-underline mt-1"></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">کار ها
+                        <div class="collapse-underline mt-1 "></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">تیم
+                        <div class="collapse-underline mt-1 "></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">تماس با ما
+                        <div class="collapse-underline mt-1 "></div>
+                    </a>
+                    </li>
+                    <li class="collapse-item px-2 d-flex flex-column align-items-center">
+                        <a href="#" class="collapse-link font-weight-light">مشتری ها
+                        <div class="collapse-underline mt-1 "></div>
+                    </a>
+                    </li>
+                </ul>
+                <!--end navbar-information-->
                 <!-- navbar offcanvas icon-->
-                <button class="offcanvas-button btn pl-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" aria-controls="myoffcanvaslabel" title="اطلاعات بیشتر">
-                    <span class="offcanvas-icon ">
+                <button class="offcanvas-button btn pl-0 mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" aria-controls="myoffcanvaslabel" title="اطلاعات بیشتر">
+                    <span class="offcanvas-icon">
                         <i class="material-icons">
                             &#xe03b
                         </i>
@@ -42,16 +81,16 @@
                 </button>
                 <!-- end navbar offcanvas icon-->
                 <!-- navbar toggler-->
-                <button type="button" class="navbar-toggler toggler-button pl-5" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" title="منوی اصلی">
+                <button type="button" class="navbar-toggler toggler-button pl-5 pt-0" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" title="منوی اصلی">
                     <span class="toggler-icon">
                         <i class="fas fa-bars"></i>
                     </span>
                 </button>
                 <!-- end navbar toggler-->
-                <a href="#" class="navbar-icon pl-2 d-none d-sm-inline " title="instagram">
+                <a href="#" class="navbar-icon pl-2 my-4" title="instagram">
                     <i class=" fab fa-instagram"></i>
                 </a>
-                <a href="#" class="navbar-icon  d-none d-sm-inline " title="twitter">
+                <a href="#" class="navbar-icon my-4" title="twitter">
                     <i class=" fab fa-twitter"></i>
                 </a>
 
@@ -63,37 +102,37 @@
             <div class="collapse navbar-collapse collapse-menu w-100" id="mycollapse">
                 <ul class="navbar-nav p-3 d-flex flex-column justify-content-between">
                     <li class="collapse-item active py-2 d-flex flex-column align-items-center mt-3">
-                        <a href="#" class="collapse-link">خانه
+                        <a href="#" class="collapse-link font-weight-bold">خانه
                         <div class="collapse-underline mt-1 "></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">امکانات
+                        <a href="#" class="collapse-link font-weight-bold">امکانات
                     <div class="collapse-underline mt-1"></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">وبلاگ
+                        <a href="#" class="collapse-link font-weight-bold">وبلاگ
                         <div class="collapse-underline mt-1"></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">کار ها
+                        <a href="#" class="collapse-link font-weight-bold">کار ها
                         <div class="collapse-underline mt-1 "></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">تیم
+                        <a href="#" class="collapse-link font-weight-bold">تیم
                         <div class="collapse-underline mt-1 "></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">تماس با ما
+                        <a href="#" class="collapse-link font-weight-bold">تماس با ما
                         <div class="collapse-underline mt-1 "></div>
                     </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
-                        <a href="#" class="collapse-link">مشتری ها
+                        <a href="#" class="collapse-link font-weight-bold">مشتری ها
                         <div class="collapse-underline mt-1 "></div>
                     </a>
                     </li>
@@ -147,8 +186,8 @@
         <!--information section-->
         <div class="background-img"></div>
         <div class="information-overlay"></div>
-        <a href="#" class="information-img">
-            <img src="https://demo.hamyarwp.com/lander/wp-content/uploads/2021/02/lander-downBTN.png" alt="">
+        <a href="#introduction-title" class="information-img">
+            <img src="images/lander-downBTN.png" alt="">
         </a>
         <!--information text-->
         <div class="information-text">
@@ -165,35 +204,35 @@
     <!-- end header section-->
     <!--introduction section-->
     <!--introduction title-->
-    <div class="introduction-title d-flex flex-column align-items-center py-5 flex-wrap ">
+    <div class="introduction-title d-flex flex-column align-items-center py-5 mt-3 flex-wrap " id="introduction-title">
         <p class="font-weight-bold introduction-title-p1" align="center">ایده های خود در دنیای مجازی را با ما اجرا کنید!</p>
         <p class="introduction-title-p2 py-3" align="center">ما در زمینه های زیر میتوانیم به شما کمک کنیم.</p>
     </div>
     <!-- end introduction title-->
     <!--introduction body-->
-    <div class="row introduction-body px-0 mx-0">
+    <div class="row introduction-body px-0 mx-0 mb-5 pb-5 d-flex justify-content-center justify-content-md-around">
         <!--single introduction-->
-        <div class="col-md-4 d-flex flex-column align-items-center single-introduction px-0">
-            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/coding1.png" alt="" class="introduction-body-img pb-5">
-            <p class="introduction-body-title pb-3">طراحی و برنامه نویسی وب</p>
+        <div class="col-11 col-md-4 col-lg-3 d-flex flex-column align-items-center single-introduction mx-0 px-0">
+            <img src="images/coding1.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3" align="center">طراحی و برنامه نویسی وب</p>
             <p class="introduction-body-p" align="center">
                 طراحی و برنامه نویسی پروژه های تحت وب با تکنولوژی های Django , ASP.NET و..
             </p>
         </div>
         <!-- end single introduction-->
         <!--single introduction-->
-        <div class="col-md-4 d-flex flex-column align-items-center  single-introduction px-0">
-            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/smartphone1.png" alt="" class="introduction-body-img pb-5">
-            <p class="introduction-body-title pb-3">برنامه نویسی موبایل</p>
+        <div class="col-11 col-md-4 col-lg-3 d-flex flex-column align-items-center  single-introduction mx-0 px-0">
+            <img src="images/smartphone1.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3" align="center">برنامه نویسی موبایل</p>
             <p class="introduction-body-p" align="center">
                 طراحی اپلیکیشن های موبایل با تکنولوژی فلاتر.
             </p>
         </div>
         <!-- end single introduction-->
         <!--single introduction-->
-        <div class="col-md-4 d-flex flex-column align-items-center  single-introduction px-0">
-            <img src="https://rasa-dev.ir/wp-content/uploads/2021/11/artificial-intelligence2.png" alt="" class="introduction-body-img pb-5">
-            <p class="introduction-body-title pb-3">هوش مصنوعی</p>
+        <div class="col-11 col-md-4 col-lg-3 d-flex flex-column align-items-center  single-introduction mx-0 px-0">
+            <img src="images/artificial-intelligence2.png" alt="" class="introduction-body-img pb-5">
+            <p class="introduction-body-title pb-3" align="center">هوش مصنوعی</p>
             <p class="introduction-body-p" align="center">
                 پیاده سازی و اجرای مدل ها ی یاد گیری ماشین ، یاد گیری عمیق و پردازش تصویر.
             </p>
@@ -202,6 +241,32 @@
     </div>
     <!--end introduction body-->
     <!--end introduction section-->
+    <!--company section-->
+    <section class="company-section my-5 d-flex align-items-end justify-content-center">
+        <div class="company-overlay"></div>
+
+
+        <div class="row">
+            <div class="company-body mx-auto d-flex flex-column align-items-center mb-5 col-9 col-sm-12">
+                <img src="images/Untitled-3-Recovered-768x549.png" alt="company-logo" class="company-img">
+                <h1 class="company-title py-3 text-light" align="center">
+                    هسته فناور رهپویان سرای ایده!
+                </h1>
+                <h2 class=" company-h2 " align="center">
+                    هم بنیانگذاران : محسن حاجی قربانی، شریف حسنی، سوگل فهیما، رضا واحدی
+                </h2>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--end company section-->
+    <!--new projects-->
+    <section class="new-projects pt-5 ">
+        <div class="projects-title "></div>
+        <div class="projects-body "></div>
+    </section>
+    <!--end new projects-->
+
     <script src=" js/jquery-3.6.0.min.js "></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <!--bootstrap5-->
@@ -246,7 +311,7 @@
         }
     </script>
     <!--my js file-->
-    <script src="practice11.js"></script>
+    <script src="practice11.js "></script>
 </body>
 
 
