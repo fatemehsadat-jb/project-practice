@@ -20,9 +20,9 @@
 
 <body>
     <!-- header section-->
-    <header class="header mx-0 d-flex mt-0">
+    <header class="header mx-0 d-flex mt-0 background-img">
         <!--navbar-->
-        <nav id="mynavbar" class="navbar px-0 mt-0 py-0 mynavbar d-flex justify-content-start align-items-center">
+        <nav id="mynavbar" class=" navbar px-0 mt-0 py-0 mynavbar d-flex justify-content-start align-items-center">
             <!--navbar logo-->
             <div class="logo-container pr-3 mr-sm-4 ">
                 <a href="#">
@@ -95,96 +95,52 @@
                 </a>
 
                 <!-- end navbar icons-->
-
-
             </div>
             <!-- navbar collapse -->
-            <div class="collapse navbar-collapse collapse-menu w-100" id="mycollapse">
+            <div class="collapse navbar-collapse collapse-menu w-100 collapse" id="mycollapse">
                 <ul class="navbar-nav p-3 d-flex flex-column justify-content-between">
                     <li class="collapse-item active py-2 d-flex flex-column align-items-center mt-3">
                         <a href="#" class="collapse-link font-weight-bold">خانه
-                        <div class="collapse-underline mt-1 "></div>
-                    </a>
+                            <div class="collapse-underline mt-1 "></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">امکانات
-                    <div class="collapse-underline mt-1"></div>
-                    </a>
+                        <div class="collapse-underline mt-1"></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">وبلاگ
-                        <div class="collapse-underline mt-1"></div>
-                    </a>
+                            <div class="collapse-underline mt-1"></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">کار ها
-                        <div class="collapse-underline mt-1 "></div>
-                    </a>
+                            <div class="collapse-underline mt-1 "></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">تیم
-                        <div class="collapse-underline mt-1 "></div>
-                    </a>
+                            <div class="collapse-underline mt-1 "></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">تماس با ما
-                        <div class="collapse-underline mt-1 "></div>
-                    </a>
+                            <div class="collapse-underline mt-1 "></div>
+                        </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">مشتری ها
-                        <div class="collapse-underline mt-1 "></div>
-                    </a>
+                            <div class="collapse-underline mt-1 "></div>
+                        </a>
                     </li>
                 </ul>
             </div>
             <!-- end navbar collapse -->
-            <!-- navbar offcanvas -->
-            <div dir="ltr" class="offcanvas offcanvas-start myoffcanvas" data-bs-scroll="true" tabindex="-1" id="myoffcanvas" aria-labelledby="myoffcanvaslabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="text-reset btn p-0 " data-bs-dismiss="offcanvas" aria-label="Close">
-                        <i class="material-icons offcanvas-close">
-                            &#xe5cd
-                        </i>
-                </button>
-                </div>
-                <div class="container px-0 mx-0">
-                    <div class="offcanvas-body d-flex flex-column align-items-end px-5 py-4">
-                        <div class="offcanvas-icons pb-4 pt-2">
-                            <a href="#" class="offcanvas-icon1 px-1" title=" twitter ">
-                                <i class="fab fa-twitter "></i>
-                            </a>
-                            <a href="# " class="offcanvas-icon2 px-1" title="instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <h6 class=" offcanvas-h6 pb-3 my-3 ">درباره ما</h6>
-                        <h6 class=" offcanvas-h6 pb-3 my-3">دسته ها</h6>
-                        <ul class="d-flex flex-column align-items-end pr-0 mr-0">
-                            <li>
-                                <a href="#" class="offcanvas-link">اخبار</a>
-                            </li>
-                            <li>
-                                <a href="#" class="offcanvas-link">پست</a>
-                            </li>
-                            <li>
-                                <a href="#" class="offcanvas-link">شیوه زندگی</a>
-                            </li>
-                            <li>
-                                <a href="#" class="offcanvas-link">مردم</a>
-                            </li>
-                            <li>
-                                <a href="#" class="offcanvas-link">ورد پرس</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- end navbar offcanvas-->
+
         </nav>
         <!-- end navbar-->
         <!--information section-->
-        <div class="background-img"></div>
         <div class="information-overlay"></div>
         <a href="#introduction-title" class="information-img">
             <img src="images/lander-downBTN.png" alt="">
@@ -202,6 +158,48 @@
         <!-- end information section-->
     </header>
     <!-- end header section-->
+    <!-- navbar offcanvas -->
+    <div dir="ltr" class="offcanvas offcanvas-start myoffcanvas" data-bs-scroll="true" tabindex="-1" id="myoffcanvas" aria-labelledby="myoffcanvaslabel">
+        <div class="offcanvas-header">
+            <button type="button" class="text-reset btn p-0 offcanvas-close-button " data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="material-icons offcanvas-close">
+                            &#xe5cd
+                        </i>
+                    </button>
+        </div>
+        <div class="container px-0 mx-0">
+            <div class="offcanvas-body d-flex flex-column align-items-end px-5 py-4">
+                <div class="offcanvas-icons pb-4 pt-2">
+                    <a href="#" class="offcanvas-icon1 px-1" title=" twitter ">
+                        <i class="fab fa-twitter "></i>
+                    </a>
+                    <a href="# " class="offcanvas-icon2 px-1" title="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <h6 class=" offcanvas-h6 pb-3 my-3 ">درباره ما</h6>
+                <h6 class=" offcanvas-h6 pb-3 my-3">دسته ها</h6>
+                <ul class="d-flex flex-column align-items-end pr-0 mr-0">
+                    <li>
+                        <a href="#" class="offcanvas-link">اخبار</a>
+                    </li>
+                    <li>
+                        <a href="#" class="offcanvas-link">پست</a>
+                    </li>
+                    <li>
+                        <a href="#" class="offcanvas-link">شیوه زندگی</a>
+                    </li>
+                    <li>
+                        <a href="#" class="offcanvas-link">مردم</a>
+                    </li>
+                    <li>
+                        <a href="#" class="offcanvas-link">ورد پرس</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar offcanvas-->
     <!--introduction section-->
     <!--introduction title-->
     <div class="introduction-title d-flex flex-column align-items-center py-5 mt-3 flex-wrap " id="introduction-title">
@@ -261,12 +259,81 @@
     </section>
     <!--end company section-->
     <!--new projects-->
-    <section class="new-projects pt-5 ">
-        <div class="projects-title "></div>
-        <div class="projects-body "></div>
+    <section class="new-projects pt-5 mb-5">
+        <div class="projects-title ">
+            <div>
+                <h2 class="project-title1 pb-2">ما وب را بهتر می کنیم!</h2>
+            </div>
+            <div>
+                <h2 class="project-title2 mb-5">جدیدترین کارها</h2>
+            </div>
+        </div>
+        <div class="projects-body ">
+            <div class="row d-flex project-row">
+                <div class="col-10 col-sm-5 col-md-6 project-body px-0">
+                    <img src="images/1-7742vq15meso98b9m9yy6gr03ila95ze8q.png " class="img-fluid project-img " alt=" ">
+                    <a href="#" class="project-link">صرافی ارز دیجیتال میمکس</a>
+                </div>
+                <div class="col-10 col-sm-5 col-md-6 project-body px-0 ">
+                    <img src="images/3-7742mw37lfftvxzb11kpglgs0u929xl716.png" class="img-fluid project-img" alt="">
+                    <a href="#" class="project-link">طراحی سامانه آموزشی دانشگاه فنی وحرفه ای</a>
+                </div>
+            </div>
+        </div>
     </section>
     <!--end new projects-->
-
+    <!--company attributes-->
+    <section class="attributes-section">
+        <!--attribute title-->
+        <div class="attributes-title pt-5">
+            <div>
+                <h2 class="attributes-title1 pb-2 pt-3">کار خودرا آسان تر و سریعتر انجام دهید!</h2>
+            </div>
+            <div>
+                <h2 class="attributes-title2 mb-5">ویژگی های برجسته</h2>
+            </div>
+        </div>
+        <!-- end attribute title-->
+        <div class="attributes-body">
+            <div class="row attributes-row d-flex">
+                <!--single attributes-->
+                <div class="col-11 col-md-6 single-attributes d-flex">
+                    <figure class="attribute-img-container">
+                        <img src="images/lander-icon_05.gif" alt="" class="attributes-img my-2">
+                    </figure>
+                    <!--pl-4 ml-2 mb-md-3 pb-md-2-->
+                    <div class=" attributes-p-container d-flex">
+                        <h3 class="attributes-blue-title first-blue-title my-3">تکنولوژیها</h3>
+                        <p class="attributes-p first-attributes-p">ما در "رسا" همواره از جدیدترین تکنولوژیهای موجوداستفاده میکنیم</p>
+                    </div>
+                </div>
+                <!--end single attributes-->
+                <!--single attributes-->
+                <div class="col-11 col-md-6 single-attributes d-flex">
+                    <figure class="attribute-img-container">
+                        <img src="images/lander-icon_03.gif" alt="" class="attributes-img my-2">
+                    </figure>
+                    <div class=" attributes-p-container d-flex">
+                        <h3 class="attributes-blue-title my-3">پیشرو</h3>
+                        <p class="attributes-p">تیم طراحی وتوسعه رسا همواره سعی می کندهمراه با دانش روز دنیای تکنولوژی وهمچنین پیشرو در آن باشد</p>
+                    </div>
+                </div>
+                <!--end single attributes-->
+                <!--single attributes-->
+                <div class="col-11 col-md-6 single-attributes d-flex">
+                    <figure class="attribute-img-container">
+                        <img src="images/lander-icon_02.gif" alt="" class="attributes-img my-2">
+                    </figure>
+                    <div class=" attributes-p-container d-flex">
+                        <h3 class="attributes-blue-title my-3">پشتیبانی حرفه ای</h3>
+                        <p class="attributes-p">تیم پشتیبانی رسابعدازاجرا وراه اندازی پروژه شماهمواره درکنارشماخواهدبود</p>
+                    </div>
+                </div>
+                <!--end single attributes-->
+            </div>
+        </div>
+    </section>
+    <!--end company attributes-->
     <script src=" js/jquery-3.6.0.min.js "></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <!--bootstrap5-->
