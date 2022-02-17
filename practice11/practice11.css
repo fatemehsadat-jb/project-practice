@@ -1088,3 +1088,189 @@
     color: white;
     background-color: rgb(233, 74, 127);
 }
+
+
+/*team style*/
+
+.members-title {
+    font-weight: 800;
+    font-size: 54px;
+    font-family: shabnam-bold;
+}
+
+@media (min-width:768px) {
+    .members-title {
+        font-size: 64px;
+    }
+}
+
+@media (min-width:1025px) {
+    .members-title {
+        font-size: 56px;
+    }
+}
+
+.member-img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.members-body {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.member-big-title {
+    font-family: shabnam-bold;
+    font-size: 32px;
+    color: rgb(118, 200, 233);
+    text-align: center;
+}
+
+.member-small-title {
+    font-family: shabnam;
+    font-size: 12px;
+    font-weight: 300;
+    color: #939393;
+}
+
+.member-icon {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.member-icon:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.member-icon1 {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: #ffffff solid 3px;
+}
+
+.member-icon2 {
+    color: white;
+    background-color: rgb(42, 170, 221);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: #ffffff solid 3px;
+}
+
+.single-member {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.members-img-container {
+    position: relative;
+}
+
+.member-icons-container {
+    position: absolute;
+    bottom: -17px;
+    left: calc(50% - 30px);
+}
+
+
+/*progress bar style*/
+
+.progress-bar {
+    width: 0;
+    animation: progress 1.5s ease-in-out forwards;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.progress {
+    height: 30px !important;
+    width: 71% !important;
+    border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    -ms-border-radius: 2px !important;
+    -o-border-radius: 2px !important;
+}
+
+@media (max-width:768px) {
+    .progress {
+        width: 90% !important;
+    }
+}
+
+.progress-bar-text {
+    font-family: shabnam;
+}
+
+.member-progress1 {
+    background-color: #3c6382 !important;
+    max-width: 95%;
+}
+
+.member-progress2 {
+    background-color: #706fd3 !important;
+    max-width: 80%;
+}
+
+.member-progress3 {
+    background-color: #2d3436 !important;
+    max-width: 100%;
+}
+
+.member-progress4 {
+    background-color: #7f8c8d !important;
+    max-width: 89%;
+}
+
+.member-progress5 {
+    background-color: #ed3d3d !important;
+    max-width: 93%;
+}
+
+.member-progress6 {
+    background-color: #ffb142 !important;
+    max-width: 76%;
+}
+
+
+/*footer style*/
+
+.footer-title {
+    font-family: shabnam-bold;
+    text-align: right;
+    font-size: 38px;
+    font-weight: 800;
+    /* color: #ffffff; */
+}
+
+@media (min-width:768px) {
+    .footer-title {
+        font-size: 36px;
+    }
+}
+
+@media (min-width:1025px) {
+    .footer-title {
+        font-size: 45px;
+    }
+}
