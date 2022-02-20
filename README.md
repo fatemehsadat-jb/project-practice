@@ -1,1 +1,1 @@
-# bootstrap-practice
+# project-practice
