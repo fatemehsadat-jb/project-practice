@@ -920,7 +920,6 @@
 .register-section {
     overflow: hidden;
     clip-path: ellipse(148% 68% at 36% 68%);
-    /* clip-path: ellipse(135% 68% at 36% 32%); */
 }
 
 .register-top {
@@ -929,7 +928,6 @@
     background-image: url('images/Vecteezy-Techno-Background-R032421_generated.jpg');
     background-size: cover;
     background-position: center center;
-    /* clip-path: ellipse(79% 68% at 36% 69%); */
 }
 
 .register-bottom {
@@ -981,13 +979,10 @@
 
 .counter {
     width: 100px;
-    /* font: 800 40px system-ui; */
     overflow: hidden;
 }
 
 .numbers {
-    /*width: auto;
-    */
     display: flex;
     animation: countNumber 1s alternate;
     animation-timing-function: steps(10);
@@ -1120,8 +1115,11 @@
 
 .members-body {
     overflow: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .member-big-title {
@@ -1139,8 +1137,8 @@
 }
 
 .member-icon {
-    font-size: 28px;
     text-decoration: none;
+    font-size: 28px;
 }
 
 .member-icon:hover {
@@ -1157,6 +1155,7 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     border: #ffffff solid 3px;
+    padding: 0.18rem;
 }
 
 .member-icon2 {
@@ -1255,22 +1254,134 @@
 
 /*footer style*/
 
-.footer-title {
+.footer-top-container {
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/landerBG6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer-top-overlay {
+    background-color: #000000;
+    opacity: 0.79;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.footer-top {
+    padding: 190px 50px 60px 30px;
+    max-width: 1019px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:1025px) {
+    .footer-top {
+        padding: 110px 20px 0px 3px;
+    }
+}
+
+.footer-top-big-title {
     font-family: shabnam-bold;
     text-align: right;
     font-size: 38px;
     font-weight: 800;
-    /* color: #ffffff; */
+    color: #ffffff;
+    position: absolute;
+    right: 50px;
+    top: 75px;
 }
 
 @media (min-width:768px) {
-    .footer-title {
+    .footer-top-big-title {
         font-size: 36px;
     }
 }
 
 @media (min-width:1025px) {
-    .footer-title {
+    .footer-top-big-title {
         font-size: 45px;
+        top: 0;
+        right: 20px;
+    }
+}
+
+.footer-top-box {
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.footer-top-title {
+    font-size: 14px;
+    color: #fcfcfc;
+    font-weight: 600;
+}
+
+.footer-top-p {
+    font-family: shabnam;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}
+
+.footer-top-icon {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer-top-icon:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.footer-top-icon1 {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 0.38rem;
+}
+
+.footer-top-icon2 {
+    color: white;
+    background-color: rgb(42, 170, 221);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* footer bottom style*/
+
+.footer-bottom-container {
+    overflow: hidden;
+}
+
+.footer-bottom-title1 {
+    font-family: shabnam-bold;
+    font-size: 13px;
+}
+
+@media (min-width:1025px) {
+    .single-footer-bottom1 {
+        float: right;
+    }
+    .single-footer-bottom2 {
+        float: right;
     }
 }
