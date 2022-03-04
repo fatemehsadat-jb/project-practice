@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="practice11.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--for text effect in collapse-->
@@ -97,42 +98,43 @@
                 <!-- end navbar icons-->
             </div>
             <!-- navbar collapse -->
-            <div class="collapse collapse-menu w-100" id="mycollapse">
+            <div class="collapse collapse-menu w-100 " id="mycollapse">
+                <div class="collapse-overlay"></div>
                 <ul class="navbar-nav p-3 d-flex flex-column justify-content-between">
                     <li class="collapse-item active py-2 d-flex flex-column align-items-center mt-3">
                         <a href="#" class="collapse-link font-weight-bold">خانه
-                            <div class="collapse-underline mt-1 "></div>
-                        </a>
+                                <div class="collapse-underline mt-1 "></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">امکانات
-                        <div class="collapse-underline mt-1"></div>
-                        </a>
+                            <div class="collapse-underline mt-1"></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">وبلاگ
-                            <div class="collapse-underline mt-1"></div>
-                        </a>
+                                <div class="collapse-underline mt-1"></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">کار ها
-                            <div class="collapse-underline mt-1 "></div>
-                        </a>
+                                <div class="collapse-underline mt-1 "></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">تیم
-                            <div class="collapse-underline mt-1 "></div>
-                        </a>
+                                <div class="collapse-underline mt-1 "></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">تماس با ما
-                            <div class="collapse-underline mt-1 "></div>
-                        </a>
+                                <div class="collapse-underline mt-1 "></div>
+                            </a>
                     </li>
                     <li class="collapse-item py-2 d-flex flex-column align-items-center">
                         <a href="#" class="collapse-link font-weight-bold">مشتری ها
-                            <div class="collapse-underline mt-1 "></div>
-                        </a>
+                                <div class="collapse-underline mt-1 "></div>
+                            </a>
                     </li>
                 </ul>
             </div>
@@ -141,10 +143,8 @@
         </nav>
         <!-- end navbar-->
         <!--information section-->
+        <div class="header-background-img"></div>
         <div class="information-overlay"></div>
-        <a href="#introduction-title" class="information-img">
-            <img src="images/lander-downBTN.png" alt="">
-        </a>
         <!--information text-->
         <div class="information-text">
             <div id="typed-strings">
@@ -155,6 +155,9 @@
             <span id="typed" style="white-space:pre;"></span>
         </div>
         <!--end information text-->
+        <a href="#introduction-title" class="information-img">
+            <img src="images/lander-downBTN.png" alt="">
+        </a>
         <!-- end information section-->
     </header>
     <!-- end header section-->
@@ -646,14 +649,14 @@
                     </div>
                     <!--single top footer-->
                     <!--single footer top-->
-                    <div class="single-footer-top col-12 col-md-6 order-1 order-md-0">
+                    <div class="single-footer-top col-12 col-md-6 order-1 order-md-0 d-flex align-items-center">
                         <div class="footer-top-box"></div>
                     </div>
                     <!--single top footer-->
                     <!--single footer top-->
                     <div class="single-footer-top col-12 col-md-4">
                         <h2 class="footer-top-title py-3">متصل شوید</h2>
-                        <div class="footer-top-icons pb-3">
+                        <div class="footer-top-icons">
                             <a href="#" class="footer-top-icon">
                                 <i class=" fab fa-instagram footer-top-icon1"></i>
                             </a>
@@ -673,11 +676,11 @@
                 <!-- <div class="row"> -->
                 <!--single footer-bottom-->
                 <div class="single-footer-bottom1">
-                    <div>
-                        <h3 class="footer-bottom-title1">درباره ما</h3>
-                    </div>
                     <div class="footer-bottom-logo-container">
                         <img src="images/Untitled-3-Recovered (1).png" alt="" class="footer-bottom-logo img-fluid">
+                    </div>
+                    <div>
+                        <h3 class="footer-bottom-title1">درباره ما</h3>
                     </div>
                 </div>
                 <!-- end single footer-bottom-->
@@ -690,34 +693,37 @@
                         سمنان-میدان استاندارد-بلوارجوان-پارک علم وفناوری دانشگاه سمنان-ساختمان فناوری شهید شهریاری-واحد۲۰۱
                     </p>
                     <p class="footer-bottom-phone">
-                        <span class="footer-bottom-icon">
-                                <i class="fa fa-phone">
-                                </i>
+                        <span class="footer-bottom-icon pl-2">
+                                <i class="fa fa-phone"></i>
                             </span> ۰۹۰۳۳۹۹۷۹۸۳
                     </p>
                     <p class="footer-bottom-gmail">
-                        <span class="footer-bottom-icon">
-                                <i class="fa fa-envelope-o"></i>
+                        <span class="footer-bottom-icon pl-2">
+                                <i class="far fa-envelope"></i>
                             </span> contact@rasa-dev.ir
                     </p>
                     <p class="footer-bottom-link">
-                        <span class="footer-bottom-icon">
-                                <i class="fa fa-external-link"></i>
+                        <span class="footer-bottom-icon pl-2">
+                                <i class="fas fa-external-link-alt"></i>
                             </span> rasa-dev.ir
                     </p>
                     <!-- end single footer-bottom-->
-                    <div>
-                        <div class="footer-bottom-warning">
-                            تمامی حقوق محفوظ است.
-                        </div>
-                        <div class="footer-bottom-icons">
-                            <a href="#" class="footer-bottom-icon">
-                                <i class=" fab fa-instagram footer-bottom-icon1"></i>
+                </div>
+            </div>
+            <div class="footer-bottom2-container">
+                <div class="footer-bottom2 clearfix">
+                    <div class="footer-bottom-icons2">
+                        <div>
+                            <a href="#" class="footer-bottom-icon2 pl-2">
+                                <i class=" fab fa-instagram"></i>
                             </a>
-                            <a href="#" class="footer-bottom-icon">
-                                <i class=" fab fa-twitter footer-bottom-icon2"></i>
+                            <a href="#" class="footer-bottom-icon2">
+                                <i class=" fab fa-twitter"></i>
                             </a>
                         </div>
+                    </div>
+                    <div class="footer-bottom-warning">
+                        تمامی حقوق محفوظ است.
                     </div>
                 </div>
             </div>
