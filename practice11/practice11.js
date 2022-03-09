@@ -32,16 +32,49 @@ function foo() {
 }
 
 
-/*for animation*/
+/*for arrow up animation*/
+var arrow = document.getElementById("arrow-up");
+arrow.addEventListener("mouseover", function() {
+    arrow.classList.add("animate__animated", "animate__bounceIn");
+    setTimeout(function() {
+        arrow.classList.remove("animate__animated", "animate__bounceIn")
+    }, 1000);
+});
 
-function movebox1() {
-    document.getElementById('attributes-box1').classList.add("animate1");
+/*for nav scroll background*/
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("mynav").style.backgroundColor = "black";
+        document.getElementById("mynav").style.zIndex = "1000";
+        document.getElementById("mynav").style.height = "55px";
+    } else {
+        document.getElementById("mynav").style.backgroundColor = "transparent";
+    }
 }
+/*for collapse scroll background*/
+window.onscroll = function() {
+    scrollFunction2()
+};
 
-function movebox2() {
-    document.getElementById('attributes-box2').classList.add("animate2");
+function scrollFunction2() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("mycollapse").style.backgroundColor = "black";
+        document.getElementById("mynav").style.backgroundColor = "black";
+        document.getElementById("mynav").style.height = "55px";
+    } else {
+        document.getElementById("mycollapse").style.backgroundColor = "#1e73be";
+        document.getElementById("mynav").style.backgroundColor = "transparent";
+    }
 }
+/* for preloader*/
+window.onload = function() {
+    onloadfunction()
+};
 
-function movelogo() {
-    document.getElementById('attributes-logo-box').classList.add("logoanimate");
+function onloadfunction() {
+    document.getElementById("preloader").classList.add("hidepreloader");
 }
