@@ -50,9 +50,12 @@ function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("mynav").style.backgroundColor = "black";
         document.getElementById("mynav").style.zIndex = "1000";
-        document.getElementById("mynav").style.height = "55px";
+        document.getElementById("mynav").classList.add("navheight");
+        document.getElementById("navbarlogo").classList.add("bignavbarlogo");
     } else {
         document.getElementById("mynav").style.backgroundColor = "transparent";
+        document.getElementById("navbarlogo").style.width = "64";
+        document.getElementById("navbarlogo").style.height = "46";
     }
 }
 /*for collapse scroll background*/
@@ -64,10 +67,13 @@ function scrollFunction2() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("mycollapse").style.backgroundColor = "black";
         document.getElementById("mynav").style.backgroundColor = "black";
-        document.getElementById("mynav").style.height = "55px";
+        document.getElementById("mynav").classList.add("navheight");
+        document.getElementById("navbarlogo").classList.add("bignavbarlogo");
     } else {
         document.getElementById("mycollapse").style.backgroundColor = "#1e73be";
         document.getElementById("mynav").style.backgroundColor = "transparent";
+        document.getElementById("navbarlogo").style.width = "64";
+        document.getElementById("navbarlogo").style.height = "46";
     }
 }
 /* for preloader*/

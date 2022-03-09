@@ -170,12 +170,29 @@
     }
 }
 
+.navheight {
+    height: 55px;
+}
+
+@media (min-width:1025px) {
+    .navheight {
+        height: 100px;
+    }
+}
+
 
 /*logo style*/
 
 .navbar-logo {
     width: 64px;
     height: 46px;
+}
+
+@media (min-width:1025px) {
+    .bignavbarlogo {
+        width: 128px;
+        height: 91px;
+    }
 }
 
 @media (max-width:600px) {
